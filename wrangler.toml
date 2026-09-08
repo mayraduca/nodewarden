@@ -27,10 +27,6 @@ class_name = "NotificationsHub"
 name = "BACKUP_TRANSFER_RUNNER"
 class_name = "BackupTransferRunner"
 
-[[r2_buckets]]
-binding = "ATTACHMENTS"
-bucket_name = "nodewarden-attachments"
-
 [[migrations]]
 tag = "v1-notifications-hub"
 new_sqlite_classes = [ "NotificationsHub" ]
